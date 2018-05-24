@@ -1,0 +1,25 @@
+body {
+	background: yellow;
+}
+
+.inbox {
+	margin: 50px auto 0 auto;
+	width: 300px;
+	border: 5px solid #eaeace;
+	box-shadow: 7px 4px 37px 0px #110dec;
+}
+
+.item {
+	display: flex;
+	align-items: center;
+	background: white;
+	border-bottom: 1px solid #ccf;
+}
+
+input {
+	margin: 0 15px 0 10px;
+}
+
+input:checked + p {
+	text-decoration: line-through;
+}
