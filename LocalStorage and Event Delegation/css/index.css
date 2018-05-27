@@ -1,3 +1,11 @@
+body {
+	background-image: url(../backgroundImage/restaurant-ocean.jpg);
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center; 
+}
+
 .wrapper {
 	padding: 20px;
 	max-width: 350px;
