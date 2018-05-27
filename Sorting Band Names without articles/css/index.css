@@ -1,0 +1,23 @@
+body {
+	background-image: url(../backgroundImage/Eiffel-Tower.jpg);
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#bands {
+	padding: 0;
+	margin: 0;
+	font-weight: bold;
+	font-size: 20px;
+	color: white;
+	background: rgba(0,0,0,0.2);
+	list-style-position: inside;
+    
+}
+
+#bands li {
+	padding: 8px;
+	border-bottom: 1px solid white;
+}
