@@ -1,0 +1,17 @@
+{
+  "name": "gum",
+  "version": "1.0.0",
+  "descriptuon": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync start --server --files '*.css, *.html, *.js'"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.12.5"
+  },
+  "keywords": [],
+  "dependencies": {},
+  "description": ""
+}

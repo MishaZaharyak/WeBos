@@ -1,0 +1,34 @@
+body {
+	background: #ffc600;
+}
+
+.photobooth {
+	display: grid;
+	grid-template-areas:'controls controls player'
+						'photo photo photo'
+						'bot bot bot';
+						max-width: 700px;
+}
+
+.controls {
+	grid-area: controls;
+}
+
+.player {
+	width: 250px;
+	height: 164px;
+	grid-area: player;
+}
+
+.photo {
+	grid-area: photo;
+}
+
+.snap {
+	grid-area: bot;
+}
+
+img {
+	display: inline-block;
+	width: 100px;
+}

@@ -3,12 +3,13 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Webcam</title>
+	<link rel="stylesheet" href="public/css/index.css">
 </head>
 <body>
 	
 	<div class="photobooth">
 		<div class="controls">
-			<button onclick="takePhoto()">Take Photo</button>
+			<button class="takePhoto">Take Photo</button>
 			<div class="rgb">
 				<label for="rmin">Red Min:</label>
 				<input type="range" min="0" max="255" name="rmin">
@@ -32,9 +33,9 @@
 		<video class="player"></video>
 		<div class="strip"></div>
 	</div>	
-	<audio class="snap" src=""></audio>
+	<audio class="snap" src="public/audio/360329__inspectorj__camera-shutter-fast-a.wav"></audio>
 
 
-	<script src="js/index.js"></script>
+	<script src="public/js/index.js"></script>
 </body>
 </html>
