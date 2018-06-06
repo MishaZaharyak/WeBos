@@ -1,0 +1,55 @@
+html {
+    box-sizing: border-box;
+    background: white;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.items {
+    height: 800px;
+    padding: 100px;
+    width: 100%;
+    border: 1px solid white;
+    box-shadow: 0 0 10px 7px rgba(0, 0, 0, 0.09);
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    user-select: none;
+    cursor: pointer;
+    transition: all 0.2s;
+    transform: scale(0.98);
+    position: relative;
+    background: rgba(255,255,255,0.1);
+    perspective: 500px;
+}
+
+.items.active {
+    cursor: grabbing;
+    cursor: -webkit- grabbing;
+    transform: scale(1);
+}
+
+.item {
+    width: 200px;
+    height: calc(100% - 40px);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: yellow;
+    border: 1px solid black;
+
+
+}
+
+
+
